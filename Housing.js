@@ -62,9 +62,19 @@
 			).addTo(map)
 												
 			
-		L.control.addTo(map, 
-		{
-		});
+		var info = L.control();
+		
+		info.onAdd = function (map) {
+			this._div = L.DomUtil.create('div', 'info');
+			this.update();
+			return this._div;
+		};
+		
+		info.update = function (props) {
+			this._div.innerHTML = '<h4>Open Housing Violations in Hartford</h4><br/>Sourced from <a href="https://data.hartford.gov/"> Hartford Open Data </a>';
+		};
+		
+		info.addTo(map);
 		
 		
 			});
