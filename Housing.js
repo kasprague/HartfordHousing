@@ -71,7 +71,7 @@
 		};
 		
 		info.update = function (props) {
-			this._div.innerHTML = '<h4>Open Housing Violations in Hartford</h4><br/>Sourced from <a href="https://data.hartford.gov/"> Hartford Open Data </a>';
+			this._div.innerHTML = '<h4 style="padding-right: 5%">Open Housing Violations in Hartford</h4><br/>Sourced from <a href="https://data.hartford.gov/"> Hartford Open Data </a>';
 		};
 		
 		info.addTo(map);
