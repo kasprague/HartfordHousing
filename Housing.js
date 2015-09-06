@@ -71,7 +71,7 @@
 		};
 		
 		info.update = function (props) {
-			this._div.innerHTML = '<h4 style="margin: auto;">Open Housing Violations in Hartford</h4><br/>Sourced from <a href="https://data.hartford.gov/"> Hartford Open Data </a>
+			this._div.innerHTML = '<h4 style="margin:auto;">Open Housing Violations in Hartford</h4><br/>Sourced from <a href="https://data.hartford.gov/"> Hartford Open Data </a>
 			<br/>Code available on <a href="https://github.com/jtcond13/HartfordHousing/">Github.</a>';
 		};
 		
