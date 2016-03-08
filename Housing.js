@@ -1,7 +1,7 @@
 
 // Hartford Open Data.  API Docs: http://dev.socrata.com/foundry/#/data.hartford.gov/86ax-cfey
 
-		var map = L.map('map').setView([41.766085, -72.672677], 13);
+		var map = L.map('map').setView([41.766085, -72.672677], 18);
 		
 		var terrainTiles = L.tileLayer.provider('CartoDB.Positron');
 				terrainTiles.addTo(map);
